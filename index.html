@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect » href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2? famille =Roboto+Condensé:ital,wght@1,700&display=swap » rel="stylesheet">
+    <link rel="preconnect » href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2? famille =Homard&display=swap » rel="stylesheet">
+<link rel="preconnect » href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2? famille =Homard&famille=Source+Serif+Pro&display=swap » rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezechiel sunda</title>
+    <style>
+
+        html{
+            scroll-behavior: smooth;
+        }
+    
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background: url('https://i.pinimg.com/originals/56/8f/1c/568f1cbd76e91a011d8354ea0567e919.jpg');
+        }
+
+        nav{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 5px solid #6f6f6f ;
+
+        }
+
+        nav h1{
+            color: black;
+            font-family: 'Lobster', cursive;
+            font-size: 30px;
+        }
+        nav .onglets{
+            margin-top: 3px;
+            margin-left: 300px;
+
+        }
+        nav .onglets a {
+            text-decoration: none;
+            color: #000;
+            margin-right: 10px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
+        }
+
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: url('https://images.tuto.net/ui/thematics/35/developpeur-web.jpg');
+            background-size: cover;
+            color: #fff;
+            padding: 40px;
+
+        }
+        
+        header h2{
+            font-family: 'Lobster', cursive;
+            font-size: 50px;
+        }
+        header h4{
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           margin-top: -20px ;
+           font-size: 20px;
+           text-align: center;
+           border-bottom: 1px solid #fff;
+           cursor: pointer;
+    
+        }
+
+        header button{
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #000;
+            border: none;
+            font-size: 20px;
+            font-family: 'Lobster', cursive;
+            outline: none;
+            cursor: pointer;
+
+        }
+
+        .port h2{ 
+            color: black;
+            font-family: 'Lobster', cursive;
+            font-size: 50px;
+            text-align: center;
+        }
+            
+
+        
+
+        .main{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .main .content .card{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .main .content .card .left {
+            flex: 0 0 30%;
+            padding: 20px;
+            background-color: black;
+            color: #fff;
+
+
+
+        }
+        .main .content .card.right {
+            flex: 0 0 70%;
+
+
+        }
+
+        .main .content .card .right img{
+            height: 300px;
+            width: 400px;
+            margin-top: 5px;
+        }
+
+        footer{
+           margin-top: 40px; 
+           border-top: 5px solid #6f6f6f;
+           background-color: black;
+           color: white;
+           padding: 30px 100px;
+        }
+
+        footer h1 {
+            font-family: 'Lobster', cursive;
+            color: whitesmoke;
+            border-bottom: 1px solid #fff;
+            width: 20%;
+            padding-bottom: 5px;
+        }
+
+        footer .services{
+            margin-top: -10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        footer .services .service{
+            margin-right: 30px;
+            padding: 10px;
+
+        }
+        footer .services .service p{
+            max-width: 300px;
+        }
+        footer .services .service h3{
+            max-width: 300px;
+            color:aquamarine;
+        }
+
+
+        footer #contact{
+            color: rgb(50, 69, 94);
+        }
+         
+        @media screen and (max-width:680px){
+            nav .onglets{
+                margin-left: 0px;
+                margin-bottom: 20px;
+
+            }
+            .main .card{
+                margin: 10px;
+            }
+            .main .content .card .right img{
+                height: 200px;
+                width: 100%;
+                margin-top: 0px;
+            }
+            .main .content .card{
+                display: block;
+            }
+            footer{
+               padding: 30px; 
+            }
+        }
+
+    
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>EZECHIEL SUNDA</h2>
+        <div class="onglets">
+            <a href="#accueil">Accueil</a>
+            <a href="#produits">Portfolio</a>
+            <a href="#apropos">A Propos</a>
+        </div>
+    </nav>
+
+    <header>
+        <h2>Ir Ezechiel</h2>
+        <h4>Développeur freelance </h4>
+        <button>Contact</button>
+    </header>
+
+    <div class= "port">
+        <h2>Mon Portfolio </h2>
+    </div>
+
+    <section class="main" id="produits">
+        <div class="content">
+            <div class="card">
+                <div class="left">
+                    <h1>Sites E-commerce</h1>
+                    <P>Depuis 2015 la conception des sites E-commerce est dévenu un jeu d'enfant pour moi, j'ai commencé a concevoir des sites d'achat et vente en ligne d'abord en local en utilisant le langage PHP est l'API STRIPE pour la gestion de payement, puis aprés avoir éxercer ceci en local, je me suis lancé de le faire pour le grand magasin du pays y compris quelques réstaurant est cela a été parfait, je suis aussi disposé de le faire pour vous en moins de temps il siffut juste de me contacter est vous ne serez jamais décu   </P>
+                </div>
+
+                <div class="right">
+                    <img src='https://www.conseilsmarketing.com/wp-content/uploads/2017/07/Quels-sont-les-avantages-d-une-boutique-en-ligne-.png'>;
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h1>Sites vitrines</h1>
+                    <p>Je crois bien qu'en ce moment la réalisation d'un site vitrine est trés important et primordial pour le petite et moyenne entreprise, grace à lui il vous permet de présenter vos services dans le monde entier il suffit juste à l'internaute de taper une adresse web de votre entreprise et voilà qu'il retrouve déja tout vos sercives sur son écran et s'il est interessé pourquoi pas directement vous contacter?</p>
+                </div>
+                
+                <div class="right">
+                    <img src="https://soiby.com/wp-content/uploads/2020/10/site-vitrine.jpg">;
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h1>Logiciel des gestions</h1>
+                    <p>Pour la gestion des vos personnels, des vos produits... cette téchnologie s'adresse à vous, je le concois avec touts les normes avec système d'impression en sécurisant votre base de données tout ceci grace aux meilleuirs langages de programmation qui m'aide à faire ça tel que le C++ ou C sharp, veuillez me contacter pour vous en faire un </p>
+                </div>
+                
+                <div class="right">
+                    <img src="https://www.memoireonline.com/10/12/6289/Essai-de-la-mise-en-place-dune-plate-forme-informatique-Direction-Generale-des-Impts-operat14.png">;
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h1>Application mobiles</h1>
+                    <p>Vous Rêvé d'avoir votre propre application mobile que ce soit une application vitrine, commerce ou genre réseau social vous êtes au bon endroit je conçoit toutes sortes d'applications mobile veillez me parler de votre projet et vous les aurez en mains dans quelque jours .</p>
+                </div>
+                
+                <div class="right">
+                    <img src="https://contodeo.com/wp-content/uploads/2020/04/Application-Contodeo-Ecran3.jpg">;
+
+                </div>
+            </div>
+
+            
+        </div>
+
+    </section>
+    <footer>
+
+        <h1>A propos de moi</h1>
+
+        <div class="services" id = "apropos">
+            <div class="service">
+                <h3>Qui suis-je?</h3>
+                <P>Je ne vais pas trop parler de moi car certains me connaissent, je suis Ezechiel-sunda né en République démocratique du congo, j'ai décroché mon Bac en option Biologie-chime, au moment d'integré l'université j'avais du mal à choisir une filière puis un jour j'ai suivi un documentaire sur Marck Zuckerberg puis ça été un coup de pouce pour me lancer à l'informatique plus précisement dans la programmation, j'ai commencé a suivre de cours payant sur Alphorm que je vous conseil d'ailleuirs et cela ma rendu aujourd'hui programmeur full-stack... </P>
+                                
+                    
+            </div>
+            <div class="service">
+                <h3>Mes compétences</h3>
+                <P>Je suis développeur Web, Mobile et Desktop je code sur plusieurs langage et framework notamment pour le web </br> html, css, javascript, php et le .NET</br> pour la création d'applications mobile j'utilise le React-native, xamarin et ionic. </br> pour le Desktop j'utilise le C#</P>
+
+
+
+            </div>
+            <div class="service">
+                <h3>Mes Projets</h3>
+                <P> Parlant de mes projets il y'en a plus d'une centaine mais je dirais juste l'essentiel qui est la proposition au gouvernement de mon pays l'instruiction de l'apprentissage du code depuis l'école secondaire cette idée vas vraiment rapporter plus sur le plan technologiques au futur </br> la deuxième est de ma part d'organiser des séances de formation intense et des conférences sur la itech, car la révolution du monde actuel c'est en codant</P>
+
+
+
+            </div>
+        </div>
+        <p id="Contact">243 826046726| &copy; 2021, Ezechiel sunda </p>
+    </footer>
+</body>
+</html>
